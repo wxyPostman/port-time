@@ -1,0 +1,41 @@
+#conter_user_info ul{
+	padding: 0;
+	text-align: center;
+}
+.dropdown-menu{
+	min-width: 120px;
+}
+.divider{
+	margin: 0;
+}
+.register_tips{
+	display: none;
+}
+.slide_banner1{
+	background: url(../images/banner4.jpg)no-repeat center center;
+	background-size: cover;
+}
+
+.slide_banner2{
+	background: url(../images/plant.jpg)no-repeat center center;
+	background-size: cover;
+
+}
+
+.slide_banner3{
+	background: url(../images/banner1.jpg)no-repeat center center;
+	background-size: cover;
+}
+.banner_wrapper{
+	height: 100%;
+}
+#conter_user_info{
+	display:none;
+}
+#login_username_tip{
+	display:none;
+}
+#login_password_tip{
+	display:none;
+}
+

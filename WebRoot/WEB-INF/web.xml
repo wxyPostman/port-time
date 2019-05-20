@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>CampusPT</display-name>
+  <servlet>
+    <servlet-name>AllReleaseServlet</servlet-name>
+    <servlet-class>controller.AllReleaseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OrderDetailServlet</servlet-name>
+    <servlet-class>controller.OrderDetailServlet</servlet-class>
+  </servlet>
+	
+  <servlet>
+    <servlet-name>GetSession_login</servlet-name>
+    <servlet-class>controller.GetSession_login</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>controller.LogoutServlet</servlet-class>
+  </servlet>
+
+
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>controller.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StoreInfoServlet</servlet-name>
+    <servlet-class>controller.StoreInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ChangePwdServlet</servlet-name>
+    <servlet-class>controller.ChangePwdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserInfoServlet</servlet-name>
+    <servlet-class>controller.UserInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MyOrdersServlet</servlet-name>
+    <servlet-class>controller.MyOrdersServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SignUpServlet</servlet-name>
+    <servlet-class>controller.SignUpServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CheckServlet</servlet-name>
+    <servlet-class>controller.CheckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminServlet</servlet-name>
+    <servlet-class>controller.AdminServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>AllReleaseServlet</servlet-name>
+    <url-pattern>/user/allreleaseorders.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderDetailServlet</servlet-name>
+    <url-pattern>/user/odetail.do</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet-mapping>
+    <servlet-name>GetSession_login</servlet-name>
+    <url-pattern>/GetSession_login.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/user/logout.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/admin/logout.do</url-pattern>
+  </servlet-mapping>
+
+ 
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/reg.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StoreInfoServlet</servlet-name>
+    <url-pattern>/user/store.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangePwdServlet</servlet-name>
+    <url-pattern>/changepwd.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserInfoServlet</servlet-name>
+    <url-pattern>/user/userinfo.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyOrdersServlet</servlet-name>
+    <url-pattern>/user/myrel.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SignUpServlet</servlet-name>
+    <url-pattern>/user/signup.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckServlet</servlet-name>
+    <url-pattern>/check.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminServlet</servlet-name>
+    <url-pattern>/admin/admin.do</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

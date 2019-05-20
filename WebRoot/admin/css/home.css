@@ -1,0 +1,375 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Microsoft YaHei';
+    background-color: #f1f2f7;
+    min-width: 500px;
+}
+
+body, html {
+    position: relative;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.clearfix:before, .clearfix:after {
+    display: block;
+    content: '';
+}
+
+.clearfix {
+    zoom: 1;
+    overflow: hidden;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.headerFFF {
+    background: #fff;
+    position: relative;
+}
+
+.Header {
+    background: #fff;
+    height: 60px;
+}
+
+.DXSTDIO {
+    float: left;
+    padding: 10px;
+}
+
+.DX {
+    font-size: 24px;
+    float: left;
+}
+
+.DXred {
+    color: red;
+}
+
+.HeaderTu {
+    float: left;
+    padding: 10px;
+}
+
+.headerLeftTowBor {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #f0f0f8;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 10px;
+    position: relative;
+}
+
+.headerLeftTowY {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+}
+
+.headerLeftTowYO {
+    background-color: #a9d86e;
+    top: -12px;
+    left: 20px;
+}
+
+.headerLeftTowYT {
+    background-color: #ff6c60;
+    top: -12px;
+    left: 20px;
+}
+
+.headerLeftTowYS {
+    background-color: #fcb322;
+    top: -12px;
+    left: 20px;
+}
+
+.HeaderR {
+    float: right;
+}
+
+.headerRightPut {
+    width: 36px;
+    height: 40px;
+    margin-right: 20px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-color: #fff;
+    border-radius: 4px;
+    background: url(../img/search-icon.jpg)no-repeat left;
+    font-family: 'Microsoft YaHei';
+    background-size: 30px;
+    display: block;
+    float: left;
+    margin-top: 10px;
+    text-indent: 3em;
+    position: relative;
+    color: #ccc;
+    z-index: 10;
+    outline: none;
+}
+
+.headerRightPut:focus {
+    outline: none;
+    border-color: #f0f0f8 !important;
+}
+
+.headerRightMy {
+    float: right;
+    border: 1px solid #f0f0f8;
+    text-align: left;
+    margin-top: 12px;
+    border-radius: 4px;
+    line-height: 46px;
+    cursor: pointer;
+    padding-right: 6px;
+}
+.headerRightMy .glyphicon{
+    font-size: 14px;
+    font-weight: 300;
+}
+.headerimg {
+    margin-left: 8px;
+}
+
+.headerSJ {
+    margin-left: 6px;
+}
+
+#main {
+    height: 400px;
+}
+
+#AlertA {
+    width: 100px;
+    color: #a3abba;
+    background: #fff;
+    border-radius: 4px;
+    display: none;
+    float: right;
+    position: absolute;
+    right: 30px;
+    top: 62px;
+    background-color: #a8d86a;
+    z-index: 9;
+    padding: 6px 0;
+}
+
+.AlertATop {
+    width: 33%;
+    height: 100px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+
+.AlertATop span:hover {
+    color: #4fc7e8;
+}
+
+.AlertABtm {
+    width: 100%;
+    float: left;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+#IndrxLeftOne {
+    color: #aeb2b7;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.LeftDiv {
+    color: #aeb2b7;
+    border-radius: 4px;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.box_container {
+    height: 100%;
+}
+
+.panel {
+    background-color: #2a3542;
+    margin-top: 10px;
+}
+
+.panel a {
+    color: #fff;
+}
+.panel-body{
+    padding: 0;
+}
+.panel-body ul {
+    margin: 0;
+    padding: 0;
+}
+.panel-body a:hover{
+    text-decoration: none;
+}
+.panel-body ul li {
+    text-align: right;
+}
+
+.panel:hover {
+    background-color: #35404D;
+}
+
+.panel_active {
+    background: #35404D;
+}
+.panel_active i{
+    color: #FF6C60;
+}
+.panel_box{
+    background: #35404D;
+}
+.panel_box i{
+    color: #ff6c60;
+}
+.panel-heading a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.in_width {
+    height: 100%;
+    position: relative;
+    padding-left: 0;
+}
+
+#in_width {
+    padding: 0;
+}
+
+.nav_box {
+    height: 100%;
+    background: #2a3542;
+}
+
+#LeftNav {
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+#LeftNav li {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 20px 20px 10px 10px;
+}
+
+#ff6c601 {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.ff6c60 {
+    float: left;
+    margin-right: 20px;
+}
+
+#Push {
+    float: right;
+}
+
+#PPP {
+    float: right;
+}
+
+#LeftZK {
+    overflow: hidden;
+    height: 50px;
+}
+
+.RedASDS {
+    float: right;
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    background: #ff6c60;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.box_wxy {
+    background-color: #fff;
+    border-radius: 6px;
+    margin: 15px;
+}
+
+.RightTopOL {
+    float: left;
+    display: inline-block;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    background-color: #6ccac9;
+    padding: 0;
+    border-radius: 4px;
+    width: 40%;
+    height: 100px;
+}
+
+.box_wxy .RightTopOL>span {
+    transition-duration: 0.5s;
+}
+
+.box_wxy:hover .RightTopOL>span {
+    transform: scale(1.5);
+}
+
+.RightTopOL span {
+    margin-top: 30px;
+}
+
+.RightTopOR {
+    float: left;
+    width: 58%;
+    text-align: center;
+    color: rgb(198, 202, 214);
+    padding-top: 12px;
+    overflow: hidden;
+}
+
+.RightTopOR span {
+    font-size: 40px;
+}
+
+.COLORO {
+    background: #ff6c60;
+}
+
+.COLORS {
+    background: #57c8f2;
+}
+
+.COLORT {
+    background: #f8d347;
+}
+
+.user_number{
+    font-size: 18px;
+    padding: 20px 0 6px 20px;
+    border-bottom: 1px solid #ccc;
+}

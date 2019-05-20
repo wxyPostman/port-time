@@ -1,0 +1,26 @@
+.salary {
+    float: right;
+    margin-top: 36px;
+    font-size: 16px;
+    color: #ccc;
+    margin-right: 20px;
+}
+.list_btn {
+    background-color: #fd8000;
+    color: #fff;
+    width: 150px;
+    text-align: center;
+    border-radius: 6px;
+    float: right;
+    padding: 10px;
+}
+.list_btn visited{
+	    color: #fff;
+}
+.companyInfo li{
+	margin-top: 10px;
+}
+.nav-tab li{
+	margin: 0 16px 0 0;
+	padding: 0;
+}

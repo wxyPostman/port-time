@@ -1,0 +1,94 @@
+.userinfo_table{
+	margin: 20px;
+}
+.title_head{
+	margin-top: 20px;
+	height: 60px;
+	line-height: 60px;
+	border-radius: 6px 6px 0 0;
+	color: #FFFFFF;
+}
+.user_color{
+	background-color: #41cac0;
+}
+.school_color{
+	background-color: #ff6c60;
+}
+.order_color{
+	background-color: #f8d347;
+}
+.revenue_head{
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	font-size: 24px;
+	color: #FFFFFF;
+}
+.title_head h3{
+	font-size: 20px;
+	margin-left: 20px;
+}
+.title_head span{
+	padding:0 20px 0 20px;
+	font-size: 20px;
+	display: block;
+}
+.title_head span{
+	background-color: rgba(0,0,0,0.1);
+}
+.title_head>.revenue_head{
+	background-color: rgba(0,0,0,0.1);
+}
+.search{
+	background:none;
+	font-size: 20px;
+	margin-right: 30px;
+	cursor: pointer;
+	transition: .5s;
+	height: 40px;
+	margin-top: 10px;
+	line-height: 40px;
+	
+}
+.search input::-webkit-input-placeholder{
+	color: #FFFFFF;
+	font-size: 14px;
+}
+.search_user{
+	background: none;
+	width: 0px;
+	height: 100%;
+	border: none;
+	font-size: 14px;
+	transition: .5s;
+	outline: none;
+}
+.search_user:focus{
+	outline: none;
+}
+.search:hover{
+	border: 1px solid #FFFFFF;
+	border-radius: 6px;
+	padding-left: 6px;
+}
+.search:hover .search_user{
+	width: 200px;
+}
+.addSchool_btn{
+	margin-right: 30px;
+	height: 40px;
+	margin-top: 10px;
+	background-color: rgba(0,0,0,0.1);
+}
+.addSchool_btn:hover{
+	color: #FFFFFF;
+}
+
+.addSchool_btn:focus{
+	border: none;
+	outline: none;
+}
+.port_color{
+	background-color: #5BC0DE;
+}
