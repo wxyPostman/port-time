@@ -10,7 +10,7 @@ CampusPT
 
 ***个人中心***
 
-![](http://prfvlj038.bkt.clouddn.com/fehelper-192-168-22-227-8080-CampusPT-user-userinfo-do-1558333263597.png)
+![](http://prfvlj038.bkt.clouddn.com/qweqwe.png)
 
 ***发布展示***
 
