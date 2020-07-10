@@ -1,6 +1,6 @@
 CampusPT
 
-​	***首页展示***	![](http://prfvlj038.bkt.clouddn.com/fehelper-192-168-22-227-8080-CampusPT-user-index-jsp-1558333051185.png)
+​	***首页展示***	![](https://s1.ax1x.com/2020/07/10/UKAd6U.png)
 
 
 
